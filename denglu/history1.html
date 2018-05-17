@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+         body{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+         }
+    </style>
+    <script>
+        window.onload= function () {
+            let t=document.getElementById("back")
+            t.onclick = function () {
+                history.back()
+            }
+        }
+        console.log("history1"+"--"+history.length);
+    </script>
+</head>
+<body>
+ <h1>history1.html</h1>
+ <a href="history.html">
+     跳转到history
+ </a>
+<button id="back">
+    后退.
+</button>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        // window对象的属性和方法
+
+
+      //   console.log(window.innerWidth);
+      //   console.log(window.innerWidth);
+      //   解决浏览器兼容问题
+      //   console.log(document.documentElement.clientHeight);
+      //   console.log(document.documentElement.clientWidth);
+      // let flag =  confirm("确定退出")
+      //   console.log(flag);
+      // 时间周期函数
+      // setInterval(function () {
+      //     console.log(1);
+      // },2000)
+
+        function fn() {
+            console.log("hello");
+        }
+
+      let value=setInterval(fn,1000)
+        clearInterval(value)
+        // 在指定的周期里只执行一次
+        let tt=setTimeout(function () {
+            console.log("hello");
+        },2000)
+        clearTimeout(tt)
+
+
+
+
+
+
+        // 历史记录对象(window的子对象,window的一个属性)
+        history.length
+
+        // 方法
+        history.forward()
+        history.back()
+        history.go()
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

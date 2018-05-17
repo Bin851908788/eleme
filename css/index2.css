@@ -1,0 +1,592 @@
+
+
+
+header{
+    width: 100%;
+    height: 2.14rem;
+    /*background: red;*/
+    background-image: url("../img/top.png");
+    background-size: 100% 100%;
+}
+
+.topNac .left{
+    width: 2.4rem;
+    height: 0.87rem;
+  
+    margin-left: 0.24rem;
+    float: left;
+}
+.topNac .right{
+    width: 1.18rem;
+    height: 0.64rem;
+    margin-right: 0.24rem;
+    color: #ffffff;
+
+    margin-top: 0.2rem;
+    font-size: 0.20rem;
+    line-height: 0.66rem;
+    margin-left: 0.3rem;
+
+
+
+    float: right;
+}
+
+.topNac .right .icon-fine_icon{
+    color: #ffffff;
+}
+
+
+.topNac .left .thead{
+    width: 2.0rem;
+    height: 0.87rem;
+
+    float: left;
+    font-size: 0.24rem;
+    line-height: 1.0rem;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.topNac .left .thead i{
+    margin-right: 0.1rem;
+
+}
+
+.topNac .left .thead a{
+    color: #ffffff;
+    margin-right: 0.1rem;
+
+
+
+}
+
+.topNac .left .thead .nice .icon-dingwei{
+    color: #ffffff;
+    font-size: 0.28rem;
+
+}
+.topNac .left .thead .nice .icon-zelvxuanzefeiyongdaosanjiaoxingfandui{
+    color: #ffffff;
+    font-size: 0.20rem;
+    margin-left: 0.1rem;
+
+}
+.topNac .sousuo{
+    width: 6.70rem;
+    height: 0.34rem;
+
+    float: left;
+    margin-left: 0.34rem;
+    position: relative;
+}
+.topNac .sousuo .icon-sousuo{
+    position: absolute;
+    top: 0rem;
+    right: 5.0rem;
+    font-size: 0.30rem;
+}
+
+::-webkit-input-placeholder{
+
+    font-size: 0.24rem;
+    padding-left: 2.0rem;
+}
+.topNac .sousuo input{
+    float: left;
+    width: 6.76rem;
+    height: 0.34rem;
+    border-radius: 0.10rem;
+}
+.topNac .right .thead{
+    width: 0.38rem;
+    height: 0.36rem;
+    background: blue;
+}
+.topNac .right a{
+    font-size: 0.20rem;
+}
+
+.topNac .last{
+    width: 6.5rem;
+    height: 0.24rem;
+    /*background: #000;*/
+    float: left;
+    margin-top: 0.32rem;
+    margin-left: 0.7rem;
+}
+.topNac .last a{
+    font-size: 0.20rem;
+    display: block;
+    float: left;
+    margin-right: 0.36rem;
+    color: #ffffff;
+
+}
+.banner {
+    width:100%;
+    height: 3.54rem;
+    position: relative;
+    overflow: hidden;
+
+}
+.banner .content{
+    width: 7.03rem;
+    height: 3.09rem;
+
+    margin-left: 0.24rem;}
+.banner .content div{
+    width:0.94rem;
+    height: 0.94rem;
+    text-line:center;
+
+
+
+
+    float: left;
+    border-radius: 50%;
+    margin-right: 0.58rem;
+
+}
+.banner .content div span{
+    font-size: 0.24rem;
+    display: block;
+    margin-top: 1.09rem;
+    margin-left: 0.18rem;
+    float: left;
+    width: 1.0rem;
+    height: 100%;
+
+
+}
+
+.banner .content .box .huoguo
+{
+    margin-left: 0rem;
+}
+.banner .content .box .yiliao{
+    margin-left: 0rem;
+
+
+}
+.banner .content .box .chaoshi{
+    margin-left: 0rem;
+
+}
+.banner .content .box .shaokao{
+    margin-left: 0rem;
+
+}
+.banner .content div:nth-child(5){
+    margin-right: 0;
+    background-image: url("../img/zizhu.png");
+    margin-top: 0.34rem;
+
+    background-size: 100% 100%;
+}
+.banner .content div:nth-child(10){
+    margin-right: 0;
+    background-image: url("../img/fenlei.png");
+    background-size: 100% 100%;
+    margin-top: 0.64rem;
+}
+.banner .content div:nth-child(1){
+    background-image: url("../img/meishi.png");
+    background-size: 100% 100%;
+    margin-top: 0.34rem;
+}
+
+.banner .content .Big div{
+    background-image: url("../img/yiliao.png");
+    background-size: 100% 100%;
+    margin-top: 0.34rem;
+
+}
+
+.banner .content .Big1 div{
+    background-image: url("../img/mian.png");
+    background-size: 100% 100%;
+    margin-top: 0.34rem;
+}
+
+.banner .content div:nth-child(4){
+    background-image: url("../img/chaoshi.png");
+    background-size: 100% 100%;
+    margin-top: 0.34rem;
+}
+
+.banner .content div:nth-child(6){
+    background-image: url("../img/xiaochi.png.");
+    background-size: 100% 100%;
+    margin-top: 0.64rem;
+}
+
+
+.banner .content div:nth-child(7){
+    background-image: url("../img/lingshi.png");
+    background-size: 100% 100%;
+    margin-top: 0.64rem;
+}
+
+.banner .content div:nth-child(8){
+    background-image: url("../img/haixian.png");
+    background-size: 100% 100%;
+    margin-top: 0.64rem;
+}
+
+.banner .content div:nth-child(9){
+    background-image: url("../img/hanbao.png");
+    background-size: 100% 100%;
+    margin-top: 0.64rem;
+}
+.fenge{
+    width: 100%;
+    height: 0.4rem;
+
+    position: relative;
+
+}
+.fenge .box{
+    width: 0.15rem;
+    height: 0.15rem;
+
+    float: left;
+    margin-left: 3.5rem;
+    /*margin-right: auto;*/
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #897277;
+
+}
+.fenge .box:nth-child(2){
+    margin-left: 0.2rem;
+    background: #b5a7aa;
+}
+.fenge .long{
+    width: 100%;
+    height: 0.14rem;
+    background: #eae6e7;
+    position: absolute;
+    top: 0.2rem;
+}
+.banner .content:nth-child(2){
+    position: absolute;
+    top: 0;
+  left: 7.50rem;
+
+}
+.title{
+    display: flex;
+    width: 100%;
+    height: 0.5rem;
+
+    padding: 0.30rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.title li{
+    font-size: 0.30rem;
+}
+.bigbox{
+    width: 100%;
+    height: auto;
+
+}
+.food{
+    width: 100%;
+    /*background: green;*/
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0.34rem;
+}
+.food .box{
+    display: flex;
+    width:7.02rem;
+    height: 1.8rem;
+
+    margin-top: 0;
+}
+.food .box a{
+    display: flex;
+    width:100%;
+    height: 100%;
+}
+.food .box  .left{
+    width: 1.37rem;
+    height: 1.56rem;
+
+}
+.food .box .left img{
+    width:100%;
+    height: 100%;
+}
+.food .box .right{
+   flex-direction: column;
+   display: flex;
+    flex-grow: 1;
+
+    padding-left: 0.2rem;
+}
+
+.food .box .topOne{
+    line-height: 0.2rem;
+    display: flex;
+    font-size: 0.24rem;
+    width: 100%;
+    height: 0.2rem;
+    font-weight: bold;
+
+    flex-grow: 1;
+}
+.food .box .topTwo{
+    width: 100%;
+    height: 0.28rem;
+
+    font-size:0.18rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.food .box .topThree{
+    width: 100%;
+    height: 0.28rem;
+
+    flex-grow: 1;
+    font-size: 0.18rem;
+    display: flex;
+    justify-content: space-between;
+}
+.food .box .topFour{
+
+    width: 100%;
+    height: 0.28rem;
+
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+
+}
+.food .box .topFour span {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    font-size: 0.18rem;
+
+    line-height: 0.32rem;
+
+
+}
+.food .box .topFour span i{
+    color: red;
+}
+
+
+.food .box .topFive{
+    width: 100%;
+    height: 0.28rem;
+
+    flex-grow: 1;
+}
+.food .box .topTwo .Wright{
+    width: 1.57rem;
+    height: 0.28rem;
+
+    display: flex;
+}
+.food .box .topTwo .Wleft i{
+    font-style: normal;
+}
+.food .box .topTwo .Wright .time{
+    width: 0.74rem;
+    height: 100%;
+    border: 0.01rem solid #000000;
+    text-align: center;
+}
+.food .box .topTwo .Wright .fangshi{
+    width: 0.85rem;
+    height: 100%;
+    background: #6fb5f5;
+
+    margin-left: 0.08rem;
+}
+.food .box .topThree .jiage{
+    width: 2.15rem;
+    height:100%;
+  
+}
+.food .box .topThree .shijian{
+    width: 1.40rem;
+    height: 100%;
+
+}
+.food.box .topFour .Fleft{
+    width: 3.0rem;
+    height: 100%;
+
+    font-size: 0.18rem;
+}
+.food .box .topFour .Rright{
+    width: 0.94rem;
+    height: 100%;
+    line-height: 0.32rem;
+
+    font-size: 0.18rem;
+}
+.food .box .topFive .youhui{
+    width: 3.0rem;
+    height: 100%;
+
+    font-size: 0.18rem;
+}
+.food .box .topFive .youhui span{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+
+    line-height: 0.32rem;
+
+}
+.food .box .topFive .youhui span i{
+    font-size: 0.24rem;
+    color: #d4237a;
+}
+
+/*tab栏*/
+
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    background: #5aa0e9;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    padding: 0 0.24rem 0 0.24rem;
+    z-index: 999px;
+}
+.tab .tabBox {
+    width: 7.03rem;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tab .tabBox .index{
+    width: 0.5rem;
+    height: 100%;
+
+    font-size: 0.24rem;
+    display: flex;
+
+
+
+
+}
+.tab .tabBox .index .icon-shouyeshouye1{
+    display: flex;
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.24rem;
+    top: 0.12rem;
+    color: #eeeeee;
+
+}
+.tab .tabBox .index span{
+    color: #ffffff;
+}
+.tab .tabBox .index a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.tab .tabBox .index2{
+    width: 0.5rem;
+    height: 100%;
+
+    font-size: 0.24rem;
+    display: flex;
+
+}
+.tab .tabBox .index2 .icon-faxian{
+    display: flex;
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 2.4rem;
+    top: 0.12rem;
+
+
+
+}
+.tab .tabBox .index2 a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.tab .tabBox .index3{
+    width: 0.5rem;
+    height: 100%;
+
+    font-size: 0.24rem;
+    display: flex;
+
+}
+.tab .tabBox .index3 .icon-dingdan{
+    display: flex;
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 4.6rem;
+    top: 0.12rem;
+
+
+
+}
+.tab .tabBox .index3 a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.tab .tabBox .index4{
+    width: 0.5rem;
+    height: 100%;
+
+    font-size: 0.24rem;
+    display: flex;
+
+}
+.tab .tabBox .index4 .icon-wode{
+    display: flex;
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 6.75rem;
+    top: 0.12rem;
+
+
+
+}
+.tab .tabBox .index4 a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+

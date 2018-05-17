@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+         // let url  ="www.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.com"
+         // console.log(position(url, "baidu"));
+         //
+         // function position(str,value) {
+         //      if (!str.includes(value)){
+         //          return arr+"中没有"+value
+         //      }
+         //      // 创建一个空的数组
+         //      let newarr = [];
+         //      let start= "*".repeat(value.length);
+         //      while (str.includes(value)) {
+         //          // / 找出指定的字符串第一次出现的位置
+         //           pos=str.indexOf(value)
+         //          newarr.push(pos)
+         //          // 把指定的字符串出现过的位置代替,把值在重新赋值回原来的字符串
+         //         str= str.replace(value,start)
+         //      }
+         //               return newarr
+         //  }
+
+          // 第二种方法
+         let url  ="www.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.com"
+        // function position(str,str1) {
+        //       if (!str.includes(str1)){
+        //           return str+"中没有"+str1
+        //       }
+        //
+        //       let newarr= [];
+        //       for (let i=0;i<str.length;i++){
+        //          let pos=str.substr(i,str1.length)
+        //           if (pos===str1) {
+        //              newarr.push(i)
+        //           }
+        //
+        //       }return newarr
+        // }
+        //  console.log(position(url, "baidu"));
+   //             function position(str,value) {
+   //                 if (!str.includes(value)){
+   //                     return str+"中没有"+value
+   //                 }
+   //                 let newarr =[];
+   //                 for (let i =0;i<str.length;i++){
+   //                   let pos = str.substr(i,value.length)
+   //                     if (pos===value){
+   //                        newarr.push(i)
+   //                     }
+   //                 }return newarr
+   //
+   //
+   //             }
+   //
+   //       console.log(position(url, "baidu"));
+   //
+   //
+   //
+   //       console.dir(String)
+   //      String.prototype.position=function (value) {
+   //
+   //          if (!this.includes(value)){
+   //              return str+"中没有"+value
+   //          }
+   //          let newarr =[];
+   //          for (let i =0;i<this.length;i++){
+   //              let pos = this.substr(i,value.length)
+   //              if (pos===value){
+   //                  newarr.push(i)
+   //              }
+   //          }return newarr
+   //
+   //
+   //      }
+   //       console.log(url.position("baidu"));
+   // // let arr ="0123456789"
+   //       console.log(arr.substring(3,8));
+
+   let arr = [1,3,10,9,5,7];
+  let k= arr.findIndex(function (value,index,k) {
+       return    value%2==0;
+  });
+         console.log(k);
+         let j=arr.find(function (value,index,k) {
+             return value%2==0
+         })
+  //        let filterarr=arr.filter(function (value) {
+  //           return typeof value==="string"
+  //        })
+  //        let fliterarr =arr.filter(value=>typeof value==="string")
+  //            let newsome=arr.some(value=>value%2==0)
+  //         arr.sort(function (a,b) {
+  //             return a-b>0;
+  //         })
+  //        console.log(fliterarr);
+         console.log(j);
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

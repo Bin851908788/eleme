@@ -1,0 +1,165 @@
+header{
+    width: 100%;
+    height: 4.24rem;
+    background: url("../fukuanfangshi/beijing.png");
+    background-size: cover;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+
+}
+
+header ul{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    justify-content: space-between;
+}
+header ul li{
+    width: 100%;
+    height: 0.8rem;
+
+}
+header ul .LBten{
+    display: flex;
+    align-items: center;
+
+
+
+}
+section{
+
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: -0.24rem;
+}
+section .First{
+    width: 100%;
+    height: 1.83rem;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border: #afadad 0.01rem solid;
+
+    border-radius: 0.1rem;
+    flex-direction: column;
+
+}
+section .First .Top{
+    width: 100%;
+    height: 0.9rem;
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    line-height: 0.9rem;
+    border-bottom: #f2f2f2 0.01rem solid;
+}
+section .First .Top span{
+    font-size: 0.24rem;
+
+}
+section .First .cost{
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    line-height: 0.9rem;
+}
+section .First .cost span{
+    font-size: 0.24rem;
+}
+.zhezhao{
+    width: 100%;
+    height: 5.85rem;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section ul{
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height:7.4rem;
+    padding-top: 0.4rem;
+    position: relative;
+}
+section ul li{
+    width: 100%;
+    height: 0.94rem;
+
+}
+section ul .Cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    /*font-size: 0.40rem;*/
+    line-height:0.94rem ;
+}
+section ul .Cost .Mlogo{
+    width: 0.65rem;
+    height: 0.65rem;
+    background: url("../fukuanfangshi/qian.png");
+    background-size: cover;
+    margin-right: 0.22rem;
+}
+section ul .English{
+    width: 100%;
+    height: 0.6rem;
+    margin-top: -0.5rem;
+
+}
+section ul .RMB{
+    margin-top: 0.4rem;
+    height: 0.6rem;
+
+}
+
+section ul .ZLogo{
+    width: 1.72rem;
+    height: 1.70rem;
+
+}
+section ul .last{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+section ul .last .back{
+    width: 2.2rem;
+    height: 0.51rem;
+    background: #c7c5c5;
+    text-align: center;
+    line-height: 0.51rem;
+    font-size: 0.34rem;
+    border-radius: 0.4rem;
+    color: #ffffff;
+
+}
+section ul .ZLogo .picture{
+    width:1.4rem;
+    height:1.4rem;
+    background: url("../fukuanfangshi/zhengque.png");
+    background-size: cover;
+    margin-left: 2.72rem;
+    font-size: 0.4rem;
+    margin-top: -0.4rem;
+}
+section ul .what{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}

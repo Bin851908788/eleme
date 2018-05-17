@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        // 替换
+       let str = new String()
+       console.dir(String);
+
+
+        String.prototype.serch =function (str1) {
+
+            if (!this.includes(str1)){
+                return this+"中不存在"+str1
+            }
+            let t= this;
+            // 查找字符中某个字符出现的第一次的位置
+            let arr = [];
+            // 要替换等长的字符,所以*重复的次数是要被替换的字符串的长度
+            let star = "*".repeat(str1.length)
+            // 因为不知道循环的次数只知道循环的条件所以考虑用while
+            while (t.includes(str1)){
+
+                pos=t.indexOf(str1);
+                // 把找见的位置放在空的数组里
+                arr.push(pos);
+                // 把已经找见位置的字符替换掉
+            t=t.replace(str1,star)
+            }
+            return arr
+
+        };
+        // let url ="www.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.com"
+        // let arr = serch(url,"baidu");
+        // console.log(arr);
+        // console.log(url.serch("baidu"));
+
+        // console.log(str.replace("abc", "*"));
+      //
+      //  function replaceAll(str,str1) {
+      //      let star = "";
+      //      // for (let i =0;i<str1.length;i++){
+      //      //     star+="*"
+      //      // }
+      //      star = "*".repeat(str1.length);
+      //     while (str.includes(str1)){
+      //             str=str.replace(str1,star)
+      //
+      //     }return str
+      // }
+      //
+      //  console.log(replaceAll(str, "ab"));
+      //  console.log(str);
+
+
+     let url ="www.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.comwww.baidu.com"
+        console.log(serch(url, "baidu"));
+        // str是要操作的字符,str1是要被查找的字符
+        // function serch(str,str1) {
+        //      if (!str.includes(str1)){
+        //          return str+"中不存在"+str1
+        //      }
+        //      // 查找字符中某个字符出现的第一次的位置
+        //     let arr = [];
+        //      // 要替换等长的字符,所以*重复的次数是要被替换的字符串的长度
+        //     let star = "*".repeat(str1.length)
+        // // 因为不知道循环的次数只知道循环的条件所以考虑用while
+        //      while (str.includes(str1)){
+        //
+        //          pos=str.indexOf(str1);
+        //          // 把找见的位置放在空的数组里
+        //         arr.push(pos);
+        //          // 把已经找见位置的字符替换掉
+        //          str=str.replace(str1,star)
+        //      }
+        //      return arr
+        //
+        //
+        //
+        //
+        // }
+
+        // 第二种方法
+        // str是操作的字符串，str1是要被查找的字符串
+          function serch(str,str1) {
+              // 判断字符串中是否有这个字符
+              if (!str.includes(str1)){
+                  return str+"中没有"+str1
+              }
+              let arr = [];
+              // 进行遍历,挨着去找字符
+              for (let i=0;i<str.length;i++){
+                  // 截取要找的字符串
+                  // i是起始的位置,str.length是要找的字符串长度.
+                  newstr=str.substr(i,str1.length);
+                  // 进行假设,如果截取的字符串完全等于要找的字符串,就把它放进空的数组里面
+                  if (newstr===str1){
+                      arr.push(i)
+                  }
+              }   return arr
+
+
+          }
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

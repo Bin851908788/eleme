@@ -1,0 +1,184 @@
+header{
+    width: 100%;
+    height: 4.24rem;
+    background: url("../fukuanfangshi/beijing.png");
+    background-size: cover;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+
+}
+
+header ul{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    justify-content: space-between;
+}
+header ul li{
+    width: 100%;
+    height: 0.8rem;
+
+}
+header ul .LBten{
+    display: flex;
+    align-items: center;
+
+
+
+}
+section{
+
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: -0.24rem;
+}
+section .First{
+    width: 100%;
+    height: 1.83rem;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border: #afadad 0.01rem solid;
+
+    border-radius: 0.1rem;
+    flex-direction: column;
+
+}
+section .First .Top{
+    width: 100%;
+    height: 0.9rem;
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    line-height: 0.9rem;
+    border-bottom: #f2f2f2 0.01rem solid;
+}
+section .First .Top span{
+    font-size: 0.24rem;
+
+}
+section .First .cost{
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    line-height: 0.9rem;
+}
+section .First .cost span{
+    font-size: 0.24rem;
+}
+
+
+
+section .second{
+    width: 100%;
+
+    margin-top: 0.28rem;
+
+    border-radius: 0.1rem;
+    border: #e0dcdc 0.01rem solid;
+    box-sizing: border-box;
+
+
+}
+section .second .pisa{
+    display: flex;
+}
+section .second .pisa .pic{
+    width: 1.0rem;
+    height: 1.0rem;
+    background: url("../fukuanfangshi/pisa.png");
+    background-size: cover;
+}
+section .second .pisa .right{
+    width: 5.58rem;
+    height: 100%;
+
+    margin-top: 0.30rem;
+    margin-left: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+section .second .pisa .right span{
+    font-size: 0.24rem;
+    width: 1.48rem;
+    height: 100%;
+}
+section .second .pisa .right span:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section .second div{
+    width: 100%;
+    height: 20%;
+
+
+    padding: 0.14rem 0.2rem 0.14rem 0.2rem;
+    box-sizing: border-box;
+
+
+}
+
+section .second .hongbao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+    border-top: #dcc9c9 0.01rem solid;
+
+}
+section .second .hongbao span{
+    font-size: 0.24rem;
+}
+section .xiaoji{
+    width: 100%;
+    height: 0.75rem;
+    border: #bdbcbc 0.01rem solid;
+    margin-top: 0.3rem;
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.24rem;
+    padding: 0 1.0rem 0 0.2rem;
+    box-sizing: border-box;
+    line-height: 0.75rem;
+}
+footer{
+    width: 100%;
+    height: 0.98rem;
+    background: #4f4e4e;
+    display: flex;
+    padding: 0 0 0 0.24rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    justify-content: space-between;
+
+}
+footer .queren{
+    width: 2.38rem;
+    height: 100%;
+    background: #5be28e;
+    text-align: center;
+    line-height: 0.98rem;
+    font-size: 0.30rem;
+    color: #ffffff;
+}
+footer .money{
+    font-size: 0.30rem;
+    color: #ffffff;
+    line-height: 0.98rem;
+
+}

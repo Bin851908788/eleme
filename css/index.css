@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-size: 100px;
+}
+
+input , textarea ,button{
+    border: none;
+
+}
+i{
+    font-style: normal;
+}
